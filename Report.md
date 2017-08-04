@@ -42,7 +42,7 @@ Yeo- Jhonson --> improve normality
 Next to the classic mean , median and interpolation imputation we also implemented a `linearModelImputer`.
 The way this works is by fitting a linear relationship between two variables and then imputing the `NA`'s when the Y variable was missing.
 For example we found that we could impute `rentarea` by the means of `units`, because they exhibited a strong linear relationship.
-![OLS imputation](https://files.slack.com/files-pri/T4XATEEGJ-F5G1JUCG6/pasted_image_at_2017_05_18_07_11_pm.png)
+![OLS imputation](https://github.com/jerreyz/Credit_Risk/blob/master/Pasted%20image%20at%202017_05_18%2007_11%20PM.png)
 Note that we can only fit our coefficients on the the training data, because else we commit data leakage.
 We also experimented with matrix completion using nuclear norm regularization implemented in the Python `FancyImpute` package
 
