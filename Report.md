@@ -34,8 +34,7 @@ TRAIN --> PREDICT
 
 
 ----------
-Our group split the work as following
- I was mostly involved with the cleaning and imputation part. while Gilles was responsible for  prediction.
+
 ### Imputation
 Logistic regression : Like features in domain of -$\infty$ to $\infty$ likes normally distributed variables
 Yeo- Jhonson --> improve normality
@@ -55,7 +54,6 @@ We also experimented with matrix completion using nuclear norm regularization im
 We see that the model that performed best is the `XGboost` model.
 This confirms the superiority of `XGboost` which is highly preferred in machine learning competitions.
 Our `Logistic` Classifier also works well. However we must note that we performed a variable transformation using embedded trees.
-Instead of manually transforming the variables into normalised financial ratio's we let embedded trees do this for us as a shortcut.
 
 
 ### Random forest versus XGboost.
