@@ -7,9 +7,9 @@ Report by __Jeroen De Ryck__
  Let us first start with a summary of the process of predicting defaults on the test sample
 #### Process
 
-> 1. __Cleaning__ (my job):The data was messy. Therefore we needed to look at the data dictionary and create clarity
-> 2. __Splitting__(my job) The original data needed to be split into a training set and a validation set as is standard in data science. We chose for an 80 -20 split and made sure that one loan only appears in one set
-> 3. __Imputation__(my job).
+> 1. __Cleaning__ :The data was messy. Therefore we needed to look at the data dictionary and create clarity
+> 2. __Splitting__ The original data needed to be split into a training set and a validation set as is standard in data science. We chose for an 80 -20 split and made sure that one loan only appears in one set
+> 3. __Imputation__.
 >  A lot of the data was missing. We therefore need to impute missing data.
 > 4. __Transformation__
 > In order to get better features, we needed to apply some transformations to get meaningful ratio's or get a better domain/distribution for one of our raw variable
